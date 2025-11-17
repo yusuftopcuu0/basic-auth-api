@@ -2,7 +2,7 @@ import express from "express";
 import authRoutes from "./routes/auth";
 import cors from "cors";
 
-import { authMiddleware } from "./middleware/auth";
+import { authMiddleware } from "./middleware/authMiddleware";
 
 const app = express();
 
